@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wizkid Tribute Page</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header>
+      <div class="container">
+          <h1>Wizkid</h1>
+          <p>A Tribute to Nigeria's Global Music Icon</p>
+      </div>
+  </header>
+  <section class="hero">
+      <div class="hero-content">
+          <h2>Ibrahim Ayo Balogun</h2>
+          <p>Known professionally as Wizkid, a Nigerian singer and songwriter who has redefined Afrobeats and taken it to the global stage.</p>
+      </div>
+  </section>
+  <section class="section">
+      <div class="container">
+          <h2 class="section-title">Biography</h2>
+          <div class="biography">
+              <p>Wizkid, born Ayodeji Ibrahim Balogun on July 16, 1990, is a Nigerian singer, songwriter, and global music sensation. He grew up in Surulere, Lagos, and began his musical journey at a young age, singing in his church choir. Wizkid rose to prominence in 2010 with his breakthrough single "Holla at Your Boy" from his debut album, Superstar (2011). He is known for blending Afrobeats, reggae, dancehall, and R&B, which has made him one of Africa's biggest musical exports.</p>
+          </div>
+      </div>
+  </section>
+  <section class="section">
+      <div class="container">
+          <h2 class="section-title">Achievements</h2>
+          <div class="achievements">
+              <div class="achievement-card">
+                  <h3>Guinness World Records</h3>
+                  <p>First Afrobeats artist to appear in the Guinness World Records (2018) for his contribution to Drake's "One Dance".</p>
+              </div>
+              <div class="achievement-card">
+                  <h3>Grammy Award</h3>
+                  <p>Winner (2021) for his feature on Beyoncé's "Brown Skin Girl" from The Lion King: The Gift.</p>
+              </div>
+              <div class="achievement-card">
+                  <h3>BET Awards</h3>
+                  <p>Multiple wins including Best International Act (2012, 2017).</p>
+              </div>
+              <div class="achievement-card">
+                  <h3>Spotify Milestone</h3>
+                  <p>First Nigerian artist to hit over 1 billion streams on Spotify with the album Made in Lagos.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="section">
+      <div class="container">
+          <h2 class="section-title">Gallery</h2>
+          <div class="gallery">
+              <img src="assets/images/wizkid1.jpg" alt="Wizkid 1" onclick="openModal(this.src)">
+              <img src="assets/images/wizkid2.jpg" alt="Wizkid 2" onclick="openModal(this.src)">
+              <img src="assets/images/wizkid3.jpeg" alt="Wizkid 3" onclick="openModal(this.src)">
+              <img src="assets/images/wizkid4.jpg" alt="Wizkid 4" onclick="openModal(this.src)">
+          </div>
+      </div>
+  </section>
+  <section class="quote">
+      <div class="container">
+          <blockquote>
+              "In every step I take, in every song I sing, I carry my mother's love with me. Her strength, her wisdom, and her unwavering belief in me will forever guide my path. Though she is no longer here, her spirit remains a part of everything I do. I will honor her memory with every beat, every melody, and every success. She is my angel, always and forever."
+          </blockquote>
+          - Wizkid
+      </div>
+  </section>
+  <footer>
+      <div class="container">
+          <p>&copy; 2024 Wizkid Tribute Page. All rights reserved.</p>
+          <p>&copy; <i>JIT, Jordan In Tech</i></p>
+      </div>
+  </footer>
+
+  <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+  </div>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
